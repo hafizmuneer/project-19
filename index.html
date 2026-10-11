@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project 19</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-   <div class="maindiv">
-    <div id="box">
-        <h1 id="h1"></h1>
-        <p id="para"></p>
+
+    <div class="maindiv">
+        <div id="box">
+            <h1 id="h1"></h1>
+            <p id="para"></p>
+        </div>
+        <button class="btn" onclick="myFunction()">Get Message</button>
     </div>
-    <button class="btn" onclick="myFunction()">Get Message</button>
-   </div>
-   <div class="second">
-    <img id="img" src="images/images (11).jpg" onmouseover="myimage()" onmouseout="back()" alt="">
-   </div>
+    <div class="second">
+        <img id="img" src="images/images (11).jpg" onmouseover="myimage()" onmouseout="back()" alt="">
+    </div>
+
+    <div class="third" id="cricketers">
+        <h1>cricketers</h1>
+        <p>babar</p>
+        <p>rizwan</p>
+        <p>shaheen</p>
+        <p>afridi</p>
+        <p>amir</p>
+    
+        <button onclick="mybutton()">get cricketers</button>
+    </div>
+
+    <div class="mobile">
+        <div class="rules" id="rules">
+            <h1>student rules</h1>
+            <p>rule 1</p>
+            <p>rule 2</p>
+            <p>rule 3</p>
+        </div>
+        <div class="course" id="course">
+            <h1>course information</h1>
+            <p>HTml</p>
+            <p>css</p>
+            <p>javascript</p>
+        </div>
+        <button onclick=" highlightrules()" class="btn3">highlight rules</button>
+        <button onclick=" highlightcourse()" class="btn3">highlight course</button>
+    </div>
 
 
 
@@ -25,4 +55,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>
